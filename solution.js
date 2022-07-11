@@ -85,9 +85,9 @@ if (intTotal2 == 7 || 11) {
 
 // 9:
 if (int4 === int5) {
-  console.log(int4 * 3 && int5 * 3);
+  console.log(int4 + int5 * 3);
 } else {
-  console.log(int4, int5);
+  console.log(int4 + int5);
 }
 
 // 10:
