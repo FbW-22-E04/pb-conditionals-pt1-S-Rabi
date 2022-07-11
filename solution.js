@@ -76,14 +76,15 @@ if (int4 == 15 || int5 == 15 || sixth == 15) {
 }
 
 // 8:
-if (int4 * int5 == 7 || 11) {
+let intTotal2 = int4 + int5;
+if (intTotal2 == 7 || 11) {
   console.log(true);
 } else {
   console.log(false);
 }
 
 // 9:
-if (int4 == int5) {
+if (int4 === int5) {
   console.log(int4 * 3 && int5 * 3);
 } else {
   console.log(int4, int5);
